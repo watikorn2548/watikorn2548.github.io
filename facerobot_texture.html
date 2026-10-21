@@ -34,7 +34,7 @@
     roomEnvironment.dispose();
     pmremGenerator.dispose();
     scene.add(new THREE.HemisphereLight(0xffffff, 0xbbbbff, 1));
-    const model = await new GLTFLoader().loadAsync('watikorn2548.github.io/2414 robot2.glb');
+    const model = await new GLTFLoader().loadAsync('https://watikorn2548.github.io/facerobot_texture.htmlb');
     
     model.scene.scale.setScalar(1.5);
     mindar.addAnchor(1).group.add(model.scene);
